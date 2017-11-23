@@ -35,7 +35,7 @@ def reverse_forward_tunnel(server_port, remote_host, remote_port, transport):
 def main():
     server = ("IP do Kali Linux", 22)
     login = ("root", "toor")
-    local_server_port = 777
+    local_server_port = 666
     remote = ("localhost", 22)
 
     client = paramiko.SSHClient()
